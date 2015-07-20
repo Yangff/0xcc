@@ -1,0 +1,21 @@
+[package]
+name = "0xCCBackend"
+version = "0.1.0"
+authors = ["Yangff <yangff1@gmail.com>"]
+license = "MIT"
+
+[dependencies]
+rust-crypto = "*"
+
+[lib]
+name = "sync_password_keeper"
+test = false
+doctest = false
+
+[[bin]]
+name = "local_password_service"
+test = false
+
+[[bin]]
+name = "remote_password_service"
+test = false

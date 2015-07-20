@@ -1,0 +1,20 @@
+{
+  "name": "0xCC-frontend",
+  "author": {
+    "name": "Yangff"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "materialize-css": "*"
+  },
+  "devDependencies": {
+    "coffeeify": "^1.1.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "preinstall": "npm install -g grunt-cli"
+  }
+}
